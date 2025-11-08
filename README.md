@@ -1,5 +1,4 @@
-# Java
-☕ Continuing my programming journey — switching to Java to explore object-oriented design, problem-solving, and application development.
+
 # Java Programming Journey ☕🚀
 
 After working with **C and C++**, I’m now switching to **Java** — continuing my problem-solving journey while exploring the power of object-oriented programming and cross-platform development.
