@@ -1,0 +1,32 @@
+import java.util.*;
+class StringX
+{
+    public static String Replace(String str, char A, char B)
+    {
+        char Arr[] = str.toCharArray();
+
+        for(int iCnt = 0; iCnt < Arr.length; iCnt++)
+        {
+            if(Arr[iCnt] == A)
+            {
+                Arr[iCnt] = B;
+            }
+        }
+        String newstr = new String(Arr);
+
+        return newstr;
+    }
+}
+class program484
+{
+    public static void main(String A[])
+    {
+        String str = null;
+        Scanner sobj = new Scanner(System.in);
+        System.out.println("Enter the string");
+        str = sobj.nextLine();
+
+        String sRet = StringX.Replace(str,'a','A');
+        System.out.println("Updated string is : "+sRet);
+    }
+}
